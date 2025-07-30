@@ -1,6 +1,6 @@
-![Docker Image Version (latest semver)](https://img.shields.io/docker/v/mrdeerly/vitepress?logo=docker&logoColor=white&style=flat-square)
-![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/mrdeerly/vitepress?logo=docker&logoColor=white&style=flat-square)
-![Docker Pulls](https://img.shields.io/docker/pulls/mrdeerly/vitepress?logo=docker&logoColor=white&style=flat-square)
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/creative9k/vitepress?logo=docker&logoColor=white&style=flat-square)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/creative9k/vitepress?logo=docker&logoColor=white&style=flat-square)
+![Docker Pulls](https://img.shields.io/docker/pulls/creative9k/vitepress?logo=docker&logoColor=white&style=flat-square)
 # vitepress-docker
 Docker image for local Vitepress editing or to be run within a CI pipeline.
 
