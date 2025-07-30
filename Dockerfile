@@ -1,6 +1,7 @@
 FROM node:18-alpine
 
 WORKDIR /app
+VOLUME /app
 
 RUN npm install vue@latest vitepress@latest 
 
