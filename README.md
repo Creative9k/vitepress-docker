@@ -7,12 +7,12 @@ Docker image for local Vitepress editing or to be run within a CI pipeline.
 
 ## Installation
 ``` bash
-git clone https://github.com/MrDeerly/vitepress-docker.git
-docker build -t mrdeerly/vitepress .
+git clone https://github.com/Creative9k/vitepress-docker/vitepress-docker.git
+docker build -t сreative9k/vitepress .
 ```
 or
 ``` bash
-docker pull mrdeerly/vitepress
+docker pull сreative9k/vitepress
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ export VITEPRESS_DOCKER_PORT="3000"
 export VITEPRESS_DOCKER_MOUNT="-v $(CURDIR):/app"
 export VITEPRESS_DOCKER_OPTS="--rm $(VITEPRESS_DOCKER_MOUNT)"
 
-docker run $(VITEPRESS_DOCKER_OPTS) -p $(VITEPRESS_DOCKER_PORT):3000 mrdeerly/vitepress
+docker run $(VITEPRESS_DOCKER_OPTS) -p $(VITEPRESS_DOCKER_PORT):3000 сreative9k/vitepress
 ```
 
 This will start the vitepress devserver on port 3000.
