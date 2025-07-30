@@ -7,7 +7,7 @@ Docker image for local Vitepress editing or to be run within a CI pipeline.
 
 ## Installation
 ``` bash
-git clone https://github.com/Creative9k/vitepress-docker/dockerfile.git
+[git clone https://github.com/Creative9k/vitepress-docker/dockerfile.git](https://github.com/Creative9k/vitepress-docker.git)
 docker build -t сreative9k/vitepress .
 ```
 or
