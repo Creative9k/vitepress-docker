@@ -2,7 +2,7 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-RUN npm install vue@3.2.39 vitepress@1.0.0-alpha.15
+RUN npm install vue@latest vitepress@2.0.0-alpha.9
 
 EXPOSE 3000
 
